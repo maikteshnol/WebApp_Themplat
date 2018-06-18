@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styls.css">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-html-shader@0.2.0/dist/aframe-html-shader.min.js"></script>
+    <title>MaikTeshnol</title>
+</head>
+<body>
+  
+<header>
+  <nav class="navbar navbar-light navbar-expand-lg" style="width: 100%; background: rgb(57, 126, 253); padding: 1px 8px 1px 8px;position:fixed;overflow: hidden;z-index: 1000;">
+      <a class="navbar-brand  mr-auto" href="#"><img src="imgs/miketeshnolmylogo.png" style="width: 50px; height: 50px;" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="fas fa-align-justify" style="color: white;font-size: 30px;"></span>
+      </button>              
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="text-align: center;">
+          <li class="nav-item">
+              <a class="nav-link" href="#"style="color: rgb(255, 255, 255);font-weight: bold;">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"style="color: rgb(255, 255, 255);font-weight: bold;">Nosotros</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"style="color: rgb(255, 255, 255);font-weight: bold;">Objetivos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"style="color: rgb(255, 255, 255);font-weight: bold;">Servicios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"style="color: rgb(255, 255, 255);font-weight: bold;">Contactar</a>
+          </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 d-flex justify-content-center" style="min-width: 300px;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search...."style="height:33px;width:220px;">
+              <button class="btn"id="button"type="submit"><span class="fas fa-search" style="color: rgb(255, 255, 255);padding: 0; font-size: 22px;"></span></button>
+          </form>
+      </div>
+    </nav>
+</header>
+<section class="box_Conteint">
+<a-scene class="box_Imag">
+    <a-assets>
+      <img id="boximage"src="imgs/presentofertPreciosInternet.png" style="z-index: 1000;">
+    </a-assets>
+      <a-box src="#boximage" position="0 1.2 -5" width="5.7" height="4.7"></a-box>
+</a-scene>
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome-all.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+![Scheme](imageconteintThemeMaikTeshnol.png)
